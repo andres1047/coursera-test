@@ -97,6 +97,10 @@ footer address p{
 
 /*EDIT INDEX WEBPAGE*/
 
+.Calendar{
+  border: 1;
+  color: #1976D2;
+}
 /*edit main pic position*/
 .mainPic{
   width: 1000px;
@@ -207,7 +211,7 @@ hr{
   margin: auto;
 }/*END OF ABOUT PAGE*/
 
-/*EDIT CONYACT PAGE*/
+/*EDIT CONTACT PAGE*/
 .contactLeftSide{
   float: left;
   width: 50%;
