@@ -97,16 +97,25 @@ footer address p{
 
 /*EDIT INDEX WEBPAGE*/
 
-.Calendar{
-  border: 1;
-  color: #1976D2;
+/*EDIT CALENDAR*/
+table, td, th {
+  border: 1px solid black;
 }
-/*edit main pic position*/
+table {
+  color: #1976D2;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*edit main pic */
 .mainPic{
   width: 1000px;
   height: 450px;
   margin: auto;
   overflow: hidden;
+}
+#topPicture{
+  width: 1000px;
 }
 
 /*edit hr*/
@@ -193,6 +202,10 @@ hr{
   padding-left: 50px;
   padding-right: 50px;
   float: left;
+}
+
+.picRes{
+  width: 300px;
 }
 /*END OF INDEX WEBPAGE*/
 
