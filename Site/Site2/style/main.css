@@ -215,6 +215,9 @@ hr{
   padding-top: 50px;
   margin: auto;
 }
+#picResAbout1{
+  width: 600px;
+}
 .aboutStmt{
   width: 1200px;
   margin: auto;
@@ -222,7 +225,11 @@ hr{
 .staffPic{
   width: 400px;
   margin: auto;
-}/*END OF ABOUT PAGE*/
+}
+#picResAbout2{
+  width: 400px;
+}
+/*END OF ABOUT PAGE*/
 
 /*EDIT CONTACT PAGE*/
 .contactLeftSide{
@@ -235,9 +242,15 @@ hr{
   width: 300px;
   margin: auto;
 }
+#picResPhone{
+  width: 50px;
+}
 .email{
   width: 300px;
   margin: auto;
+}
+#picResEmail{
+  width: 100px;
 }
 .form{
   padding-top: 40px;
