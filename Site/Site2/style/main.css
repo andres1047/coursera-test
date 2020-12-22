@@ -74,6 +74,21 @@ header a{
   padding-right: 5px;
   border: 1px solid black;
 }
+
+/*EDIT BUTTON BEHAVIOR*/
+nav a:hover, nav a:active{
+  background-color: white;
+  color: blue;
+}
+
+/*EDIT BANNER
+.headerContainer > h1:hover{
+  background-color: white;
+  color: blue;
+  width: 200px;
+  cursor: pointer;
+}*/
+
 /*END OF HEADER AND MENU BAR*/
 
 /*EDIT FOOTER*/
