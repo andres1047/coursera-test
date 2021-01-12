@@ -12,12 +12,12 @@ h1{
 
 .mainContainer{
 	position: relative;
-    margin: 15px;
+  margin: 15px;
 }
 
 .container{
 	position: relative;
-    border: 1px solid black;
+  border: 1px solid black;
 	background-color: lightgrey;
 	margin: 15px;
 	height: 150px;
