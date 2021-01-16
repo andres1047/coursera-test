@@ -34,7 +34,6 @@ body{
 }
 #nav-list a{
   color: black;
-  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -53,24 +52,24 @@ body{
   margin-bottom: 20px;
 }
 #main-content section{
-  background-color: darkgrey;
   margin-bottom: 30px;
   height: 350px;
   overflow: hidden;
 }
-#menu-tile .Chicken{
+#menu-tile #Chicken{
   background-color: #FFEB88;
 }
-#menu-tile .Beef{
+#menu-tile #Beef{
   background-color: #AF9B41;
 }
-#menu-tile .Sushi{
+#menu-tile #Sushi{
   background-color: #EE6E6E;
 }
 #menu-tile a{
   color: black;
   text-transform: uppercase;
   font-weight: bold;
+  text-decoration: none;
 }
 #menu-tile h3{
   padding-top: 10px;
@@ -83,17 +82,31 @@ body{
 }
 /**END of MAIN CONTENT**/
 
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  /*MAIN CONTENT*/
+  #menu-tile section{
+  height: 1000px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+/*MAIN CONTENT*/
+#menu-tile section{
+  height: 550px;
+}
+#menu-tile #Sushi{
+  margin-top: -20px;  
+  }
+}
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
   #collapsable-nav {
   background-color: #1694E1;  
   }
-  /*MAIN CONTENT*/
-  #main-content section{
-    margin-left: 15px;
-    margin-right: 15px;
-  } 
 }
 
 
