@@ -76,8 +76,10 @@ body{
   padding-top: 10px;
 }
 #menu-tile p{
+  font-style: italic;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 0; 
 }
 /**END of MAIN CONTENT**/
 
