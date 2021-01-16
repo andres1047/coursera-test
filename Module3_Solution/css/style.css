@@ -1,0 +1,118 @@
+body{
+  background-color: white;
+}
+
+/**HEADER**/
+#header-nav{
+  background-color: #CF1717;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar-brand{
+  padding: 0;
+  height: 80px;
+}
+.navbar-brand h1{
+  color: #FFD800;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+.navbar-toggle{
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+}
+#nav-list a{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#nav-list hr{
+  border-top:1px solid black;
+  margin: 0;
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+/**END of HEADER**/
+
+/**MAIN CONTENT**/
+#main-content h2{
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+#main-content section{
+  background-color: darkgrey;
+  margin-bottom: 30px;
+  height: 350px;
+  overflow: hidden;
+}
+#menu-tile .Chicken{
+  background-color: #FFEB88;
+}
+#menu-tile .Beef{
+  background-color: #AF9B41;
+}
+#menu-tile .Sushi{
+  background-color: #EE6E6E;
+}
+#menu-tile a{
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#menu-tile h3{
+  padding-top: 10px;
+}
+#menu-tile p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/**END of MAIN CONTENT**/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #collapsable-nav {
+  background-color: #1694E1;  
+  }
+  /*MAIN CONTENT*/
+  #main-content section{
+    margin-left: 15px;
+    margin-right: 15px;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
