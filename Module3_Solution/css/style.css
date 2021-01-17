@@ -59,12 +59,15 @@ body{
 }
 #menu-tile #Chicken{
   background-color: #FFEB88;
+  box-shadow: 0 0 10px black;
 }
 #menu-tile #Beef{
   background-color: #AF9B41;
+  box-shadow: 0 0 10px black;
 }
 #menu-tile #Sushi{
   background-color: #EE6E6E;
+  box-shadow: 0 0 10px black;
 }
 #menu-tile h3{
   padding-top: 10px;
@@ -95,9 +98,6 @@ body{
 /*MAIN CONTENT*/
 #menu-tile section{
   height: 550px;
-}
-#menu-tile #Sushi{
-  margin-top: -20px;  
   }
 }
 
