@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: #E4DCB3;
 }
 
 /**HEADER**/
@@ -8,13 +8,12 @@ body{
   border-radius: 0;
   border: 0;
 }
-.navbar-header{
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .navbar-brand{
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 10px;
   height: 80px;
 }
 .navbar-brand h1{
@@ -27,7 +26,10 @@ body{
   height: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 0px;
+  margin-right: 5px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
   border: 2px solid black;
